@@ -120,6 +120,8 @@ A Device represents a remote Bluetooth device.
 
 For available methods and properties see [Bluez Docs](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/doc/device-api.txt).
 
+PropertiesChanged signals can be subscribed to by subscribing to a *Device* instance's `PropertiesChanged` events.
+
 ##### `constructor(interface: DBus.Interface): Device`
 
 *interface* is the DBus Interface corresponding the the Device.
